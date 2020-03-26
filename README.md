@@ -5,6 +5,7 @@ Interfaz HMI para monitor de presión y flujo. Contiene script para el ESP32 (mo
 
 0. Instalar ESP32 e instalar el plugin SPIFFS (.jar)
 	b. Para instalar el plugin, solo copiar ESP32FS dentro de la carpeta de instalación de arduino/tools/
+	![Image description](https://github.com/Kseg97/esp32_ap_monitor/blob/master/spiffs.png)
 1. Descargar este código junto a la carpeta data
 
 2. Formatear SPIFFS 
@@ -14,4 +15,6 @@ Interfaz HMI para monitor de presión y flujo. Contiene script para el ESP32 (mo
 	b. Ya se puede usar el monitor
 5. Listo, reiniciar ESP y conectar el celular o computador al AP
 
-Cada modificación al index.html requiere repetir los pasos desde el 3 (para vaciar la EEPROM via SPIFFS)
+Cada modificación al index.html requiere repetir los pasos desde el 2 (para vaciar la EEPROM via SPIFFS)
+
+![Image description](https://github.com/Kseg97/esp32_ap_monitor/blob/master/description.png)
